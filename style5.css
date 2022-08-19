@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+}
+.main{
+    width: 99%;
+    height: 600px;
+}
+.left-text{
+    position: relative;
+    width: 60%;
+    height: 400px;
+    display: inline-block;
+    font-size: 95%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-left: 20px;
+    margin-top: 100px;
+}
+.image{
+    width: 32%;
+    position: relative;
+    height: 400px;
+    background-color: #eaedf1;
+    display: inline-block;
+    top: 40px;
+    left: 30px;
+}
+input[type=text] {
+    width: 45%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border-radius: 6px;
+    border-color: lightgray;
+}
+.button {
+    background-color: #6366f1;
+    border-color: #6366f1;
+    color: white;
+    padding: 10px 22px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    border-radius: 6px;
+    margin-left: 10px;
+}
+.button {
+    transition-duration: 0.4s;
+  }
+  
+.button:hover {
+    background-color: darkblue; 
+    color: white;
+  }
+.box{
+    margin: auto;
+    padding: 0%;
+    margin-top: 40px;
+}
+.google{
+    width: 170px;
+    height: 57px;
+    background-color: #eaedf1;
+    border-radius: 6px;
+    margin-top: 30px;
+    position: relative;
+    display: inline-block;
+}
+.google:hover{
+    background-color: gray; 
+    color: white;
+}
+.fa-google-play{
+font-size: 180%;
+margin-left: 13px;
+position: absolute;
+margin-top: 15px;
+color: darkgray;
+}
+.google-text{
+    display: inline-block;
+    font-size: 80%;
+    padding: 0%;
+    margin-left: 55px;
+    position: relative;
+    bottom: 6px;
+}
+.apple{
+    width: 170px;
+    height: 57px;
+    background-color: #eaedf1;
+    border-radius: 6px;
+    margin-top: 30px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 20px;
+}
+.apple:hover{
+    background-color: gray; 
+    color: white;
+}
+.fa-apple{
+    display: inline-block;
+    font-size: 200%;
+    color: darkgray;
+    margin-left: 13px;
+    bottom: 15px;
+    position: relative;
+}
+.apple-text{
+    display: inline-block;
+    position: relative;
+    font-size: 80%;
+    margin-left: 15px;
+    bottom: 5px;
+}

@@ -1,0 +1,60 @@
+.main{
+    width: 100%;
+    height: 300px;
+    /* display: flex */
+
+}
+.left-window{
+    width: 45%;
+    height: 300px;
+    margin: 50px 0 0 10px;
+    border-bottom: 1px solid lightgray;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif 
+}
+.right-window{
+    width: 45%;
+    height: 300px;
+    border-bottom: 1px solid lightgray;
+    margin: 50px 0 0 50px;
+    display: inline-block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+
+}
+.category{
+    width: 100px;
+    height: 25px;
+    color: rgb(99 102 241);
+    background-color: rgb(238 242 255);
+    padding-left: 7px;
+  }
+.learn{
+    color: blue;
+    display: inline-block;
+    margin-right: 500px;
+}
+.desno{
+    display: inline-block;
+}
+.jedan{
+    padding-right: 5px;
+    border-right: 1px solid grey;
+}
+.krug{
+    height: 50px;
+    width: 50px;
+    margin-top: 75px;
+    border-radius: 50%;
+    background-color: lightgray;
+    display: inline-block;
+}
+.ime{
+    display: inline-block;
+    margin-left: 20px;
+    font-style: oblique;
+}
+h4{
+    color: lightgray;
+    font-style: italic ;
+    font-size: medium;
+}

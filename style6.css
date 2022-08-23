@@ -32,6 +32,7 @@
     display: inline-block;
     left: 30px;
     margin-top: 1px;
+    cursor: pointer;
 }
 .blank{
     position: absolute;

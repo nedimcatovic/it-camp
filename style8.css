@@ -1,0 +1,70 @@
+*{
+    box-sizing: border-box;
+    margin: auto;
+    padding: 0%;
+}
+.board{
+    height: 616px;
+    width: 616px;
+    position: relative;
+    top: 72px;
+    right: 20px;
+    border: 10px solid black;
+}
+.cell{
+    width:  75px;
+    height: 75px;
+    margin: -2px;
+    border: 1px solid black;
+    display: inline-flex;
+    position: relative;
+    background-color: green;
+    font-size: 300%;
+}
+.cell-2{
+    width:  75px;
+    height: 75px;
+    margin: -2px;
+    border: 1px solid black;
+    display: inline-flex;
+    position: relative;
+    background-color: beige;
+    font-size: 300%;
+}
+.fa-chess-rook, .fa-chess-knight, .fa-chess-bishop, .fa-chess-king, .fa-chess-pawn {
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.fa-chess-queen{
+    position: absolute;
+    left: 12px;
+    top: 10px;
+}
+.fa-chess-king{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+}
+.numbers{
+    position: absolute;
+    font-size: 30px;
+    left: 400px;
+    top: 101px;
+}
+.numbers p{
+    padding-bottom: 40px;
+}
+.letters{
+    position: absolute;
+    font-size: 30px;
+    display: inline-flex;
+    left: 478px;
+    top: 20px;
+}
+.letters p{
+    padding-right: 61px;
+}
+.row-1{
+    color: purple;
+}

@@ -1,4 +1,5 @@
-*{
+body{
+    overflow: hidden;
     margin: 0%;
     padding: 0%;
 }
@@ -86,10 +87,11 @@
     bottom: 100px;
     transform: translateX(-50%);
     position: absolute;
+    z-index: 500;
 }
 .wheel img{
-    width: 72px;
-    height: 72px;
+    width: 75px;
+    height: 75px;
     animation: wheel 1s linear infinite;
 }
 .back-wheel{

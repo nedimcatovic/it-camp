@@ -16,7 +16,7 @@
     height: 75px;
     margin: -2px;
     border: 1px solid black;
-    display: inline-flex;
+    display: inline-block;
     position: relative;
     background-color: green;
     font-size: 300%;
@@ -26,7 +26,7 @@
     height: 75px;
     margin: -2px;
     border: 1px solid black;
-    display: inline-flex;
+    display: inline-block;
     position: relative;
     background-color: beige;
     font-size: 300%;

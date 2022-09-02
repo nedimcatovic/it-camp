@@ -8,7 +8,6 @@
     background-image: url(image/night-sky-background-with-stars-and-mountains-free-vector.jpg) ;
     background-size:cover;
     background-position: center;
-    overflow-x: hidden;
 }
 .road{
     height: 150px;
@@ -87,7 +86,6 @@
     bottom: 100px;
     transform: translateX(-50%);
     position: absolute;
-    z-index: 2;
 }
 .wheel img{
     width: 72px;
@@ -95,12 +93,12 @@
     animation: wheel 1s linear infinite;
 }
 .back-wheel{
-    left: 228px;
+    left: 230px;
     bottom: 1px;
     position: absolute;
 }
 .front-wheel{
-    left: 450px;
+    left: 451px;
     bottom: 1px;
     position: absolute;
 }
@@ -121,11 +119,6 @@
     animation-iteration-count: infinite;
     overflow: hidden;
 }
-@keyframes tree{
-    100%{
-       transform: translateX(-2500px);
-    }
-   }
 .palm-tree-2{
     bottom: 140px;
     right: -200px;
@@ -138,5 +131,11 @@
     animation-iteration-count: infinite;
     overflow: hidden;
 }
+@keyframes tree{
+    100%{
+       transform: translateX(-2500px);
+    }
+   }
+
 
 

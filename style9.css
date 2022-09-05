@@ -41,12 +41,12 @@ body{
 .button-header{
     color: white;
     position: absolute;
-    padding: 8px 18px;
+    padding: 12px 20px;
     font-size: 17px;
     border-radius: 25px;
     margin-left: 20px;
-    background-color: #36bff8;
-    border-color: #36bff8;
+    background-image: linear-gradient(to right, #4052f4 0%, #57b6f1 51%, #84d1fa 100%);
+    border: none;
     right: 150px;
     top: 27px;
 }
@@ -115,6 +115,16 @@ body{
     width: 100%;
     height: 800px;
 }
+.services-background-top{
+    height: 260px;
+    width: 83%;
+    position: absolute;
+    right: 1px;
+    background-image: url(image/services-right-dec.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    z-index: 50;
+}
 .services-text{
     position: absolute;
     width: 600px;
@@ -123,25 +133,371 @@ body{
     left: 450px;
     top: 130px;
 }
+.services-text em{
+    color: #4b8ef1;
+    font-style: normal;
+}
 .services-text h4{
     font-size: 30px;
     margin-bottom: 7px;
 }
+.services-text p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #afafaf;
+}
 .service-box-box{
     height: 400px;
     width: 92%;
-    margin-left: 5%;
+    margin-left: 6%;
     position: absolute;
     top: 400px;
 }
 .service-box{
-    height: 350px;
+    height: 320px;
     width: 22%;
     background-color: white;
-    border: 1px solid lightgray;
-    box-shadow: 10px;
     display: inline-block;
     margin-left: 20px;
-    border-radius: 13px;
-    border-top-right-radius: 60px;
+    border-radius: 10px;
+    border-top-right-radius: 50px;
+    box-shadow: 0px 0px 15px rgb(228, 228, 228);
+}
+.service-box:nth-child(1){
+    margin-bottom: 30px;
+}
+.service-box-content{
+    height: 300px;
+    width: 19%;
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+.service-box:nth-child(2){
+    height: 350px;
+}
+.service-box:nth-child(3){
+    height: 350px;
+}
+.service-box:nth-child(4){
+    height: 350px;
+}
+.service-icon-1{
+    background-image: url(image/service-icon-01.png);
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.service-icon-2{
+    background-image: url(image/service-icon-02.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 52px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.service-icon-3{
+    background-image: url(image/service-icon-03.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.service-icon-4{
+    background-image: url(image/service-icon-04.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    align-items: center;
+    width: 50px;
+    height: 50px;
+    margin-bottom: 30px;
+}
+.service-box-content h4{
+    font-size: 120%;
+}
+.service-box-content p{
+    color: rgb(192, 189, 189);
+    margin-bottom: 20px;
+    line-height: 28px;
+}
+.service-box-content a{
+    color: #3a84f5;
+    margin-top: 10px;
+}
+.services-background-bottom{
+    height: 380px;
+    width: 300px;
+    position: absolute;
+    background-image: url(image/services-left-dec.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    align-items: center;
+    top: 700px;
+}
+.about{
+    width: 100%;
+    height: 750px;
+    margin-top: 50px;
+    position: relative;
+    background-image: url(image/about-bg.jpg);
+    background-repeat: no-repeat;
+    background-position: right center;
+}
+.about-content{
+    width: 40%;
+    height: 600px;
+    display: inline-block;
+    position: absolute;
+    margin-left: 130px;
+    top: 50px;
+    padding-top: 20px;
+}
+.about-pictures{
+    width: 41%;
+    height: 700px;
+    display: inline-block;
+    position: absolute;
+    right: 120px;
+    top: 20px;
+}
+.about-content h4{
+    font-size: 180%;
+    margin-bottom: 10px;
+}
+.about-content p{
+    color: rgb(191, 189, 189);
+    line-height: 30px;
+}
+.about-bubble{
+    height: 80px;
+    width: 280px;
+    display: inline-block;
+    position: relative;
+    margin: 30px 20px 0px 0px;
+    border-radius: 40px;
+    line-height: 0px;
+    box-shadow: 0px 0px 15px rgb(228, 228, 228);
+}
+.about-bubble a{
+    font-size: 20px;
+    font-weight: 700;
+    position: absolute;
+    color: #2a2a2a;
+    top: 20px;
+    left: 30px;
+}
+.about-bubble p{
+    font-size: 15px;
+    color: rgb(184, 182, 182);
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+.button-about{
+    color: white;
+    position: absolute;
+    padding: 12px 16px;
+    font-size: 17px;
+    border-radius: 25px;
+    background-image: linear-gradient(to right, #4052f4 0%, #57b6f1 51%, #84d1fa 100%);
+    border: none;
+    margin-left: 10px;
+}
+.about-content span{
+    position: absolute;
+    bottom: 1px;
+    color: rgb(131, 131, 131);
+}
+.clients{
+    width: 100%;
+    height: 900px;
+    position: relative;
+    /* background-color:beige; */
+    margin-top: 100px;
+}
+.client-header{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 5px;
+}
+.client-header h4{
+    font-size: 30px;
+}
+.client-header p{
+    font-size: 17px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #afafaf;
+    margin: 20px 500px 0px 500px;
+}
+.client-list-container{
+    width: 32%;
+    height: 500px;
+    position: relative;
+    left: 200px;
+    top: 300px;
+}
+.client-row{
+    width: 100%;
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    align-items:baseline;
+}
+.client-name{
+    width: 40%;
+    height: 100px;
+    line-height: 5px;
+}
+.client-name h4{
+    font-size: 22px;
+    font-weight: 500;
+}
+.client-name p{
+    font-size: 15px;
+    color: #afafaf;
+}
+.client-category{
+    width:35%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #afafaf;
+}
+.client-rating{
+    width:10%;
+    height: 100px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #afafaf;
+}
+.client-description{
+    width: 32%;
+    height: 350px;
+    position: absolute;
+    background-image: url(image/client-bg.png);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    overflow: hidden;
+    border-radius: 60px;
+    right: 150px;
+    top: 250px;
+}
+.client-description img{
+    height: 68px;
+    width: 80px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+}
+.client-description p{
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+    position: absolute;
+    font-style: italic;
+    bottom: 80px;
+    margin: 0px 20px 0px 30px;
+    line-height: 30px;
+}
+.client-picture{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    background-image: url(image/client-image.jpg);
+    overflow: hidden;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position:center;
+    position: absolute;
+    right: 460px;
+    bottom: 90px;
+}
+.client-picture-description{
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    right: 130px;
+    bottom:150px;
+}
+.client-picture-description h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+.prices{
+    width: 100%;
+    height: 1000px;
+    position: relative;
+}
+.prices-header{
+    width: 100%;
+    height: 200px;
+    position: absolute;
+    text-align: center;
+    line-height: 5px;
+}
+.prices-header h4{
+    font-size: 32px;
+}
+.prices-header p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: 300;
+    color: #afafaf;
+    margin: 10px 500px 0px 500px;
+}
+.price-box{
+    width: 26%;
+    height: 700px;
+    position: relative;
+    display: inline-block;
+    box-shadow: 0px 0px 15px rgb(228, 228, 228);
+    border-radius: 60px;
+    top: 300px;
+    left: 140px;
+    margin-right: 20px;
+}
+.top-background-regular{
+    height: 400px;
+    width: 300px;
+    border-top-left-radius: 60px;
+    position: absolute;
+    background-image: url(image/regular-table-top.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position:top;
+}
+.price-box p{
+    font-size: 43px;
+    font-weight: 700;
+    position: absolute;
+    left: 35px;
+    color: white;
+}
+.price-box-content{
+    width: 80%;
+    height: 800px;
+    position: absolute;
+    left: 100px;
+    top: 70px;
+}
+.price-box-content h4{
+    font-size: 23px;
+    font-weight: 700;
+}
+.price-box-content img{
+    padding-left: 40px;
+}
+.price-box-content li{
+    list-style: none;
+    line-height: 40px;
 }

@@ -20,7 +20,8 @@ body{
     position: fixed;
     background-color: transparent;
     border-bottom: 1px solid darkgray;
-    z-index: 100;
+    z-index: 200;
+
 }
 .header img{
     position: absolute;
@@ -61,7 +62,7 @@ body{
     z-index: 1;
     background-image: url(image/slider-left-dec.png);
     background-repeat: no-repeat;
-    background-size:contain
+    background-size:contain;
 }
 .main-text{
     height: 300px;
@@ -164,15 +165,15 @@ body{
     border-top-right-radius: 50px;
     box-shadow: 0px 0px 15px rgb(228, 228, 228);
 }
-.service-box:nth-child(1){
-    margin-bottom: 30px;
-}
 .service-box-content{
     height: 300px;
     width: 19%;
     position: absolute;
     margin-left: 30px;
     margin-top: 30px;
+}
+.service-box:nth-child(1){
+    margin-bottom: 30px;
 }
 .service-box:nth-child(2){
     height: 350px;
@@ -225,6 +226,10 @@ body{
 .service-box-content a{
     color: #3a84f5;
     margin-top: 10px;
+}
+.service-box:hover{
+    background-color: lightskyblue;
+    color: white;
 }
 .services-background-bottom{
     height: 380px;

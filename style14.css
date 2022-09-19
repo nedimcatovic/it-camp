@@ -3,46 +3,61 @@ body{
     padding: 0%;
 }
 .conteiner{
-    height: 100vh;
+    height: 90vh;
     width: 30vw;
-    margin-left: 500px;
+    margin: auto;
+    margin-top: 20px;
     display: grid;
-    grid-template-columns:10fr 10fr;
-    grid-template-rows: 1fr 4fr 2fr 1fr 1fr 4fr 2fr;
+    grid-template-columns:1fr 1fr;
+    grid-template-rows: 1fr 4fr 3fr 1fr 4fr 2fr;
     grid-template-areas: 
     "header header"
     "item-left-1 item-right-1"
     "item-left-1 item-right-2"
-    "item-left-1 item-right-2"
     "item-left-2 item-right-2"
     "item-left-2 item-right-3"
     "footer footer";
+    gap: 10px;
 }
 .item-header{
     background-color: beige;
     grid-area: header;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px beige;
 }
 .item-left-1{
     background-color: crimson;
     grid-area: item-left-1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px crimson;
 }
 .item-left-2{
     background-color: lightgreen;
     grid-area: item-left-2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px  lightgreen;
 }
 .item-right-1{
     background-color:  lightpink;
     grid-area: item-right-1;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px lightpink;
 }
 .item-right-2{
     background-color: chocolate;
     grid-area: item-right-2;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px chocolate;
 }
 .item-right-3{
     background-color: purple;
     grid-area: item-right-3;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px purple;
 }
 .footer{
     background-color: gray;
     grid-area: footer;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px gray;
 }

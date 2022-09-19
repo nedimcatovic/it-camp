@@ -13,23 +13,28 @@
   </head>
   <body>
     <div class="root">
-      <div class="header">
+      <header class="header">
         <img
-          width="90"
-          height="44"
+          width="100"
+          height="50"
           src="image/logo.png"
           alt="sorry no picture 4 u"
         />
         <ul>
-          <li>Home</li>
-          <li>Services</li>
-          <li>About</li>
-          <li>Pricing</li>
-          <li>Newsletter</li>
+          <li><a href="#home" style="text-decoration: none">Home</a></li>
+          <li>
+            <a href="#services" style="text-decoration: none">Services</a>
+          </li>
+          <li><a href="#about" style="text-decoration: none">About</a></li>
+          <li><a href="#pricing" style="text-decoration: none">Pricing</a></li>
+          <li>
+            <a href="#newsletter" style="text-decoration: none">Newsletter</a>
+          </li>
         </ul>
         <button class="button-header">Sign In Now</button>
-      </div>
-      <div class="main-banner">
+        <script src="site-script.js"></script>
+      </header>
+      <div class="main-banner" id="home">
         <div class="main-text">
           <h2>Get The Latest App From App Stores</h2>
           <p>
@@ -53,7 +58,7 @@
           alt="sorry no picture 4 u"
         />
       </div>
-      <div class="services">
+      <div class="services" id="services">
         <div class="services-background-top"></div>
         <div class="services-text">
           <h4>Amazing <em>Services & Features</em> For You</h4>
@@ -65,8 +70,11 @@
           />
           <p>
             If you need the greatest collection of HTML templates for your
-            business, please visit TooCSS Blog. If you need to have a contact
-            form PHP script, go to our contact page for more information.
+            business, please visit
+            <a href="https://www.toocss.com/ ">TooCSS Blog.</a> If you need to
+            have a contact form PHP script, go to
+            <a href="https://templatemo.com/contact">our contact page</a> for
+            more information.
           </p>
         </div>
         <div class="service-box-box">
@@ -117,9 +125,12 @@
         </div>
         <div class="services-background-bottom"></div>
       </div>
-      <div class="about">
+      <div class="about" id="about">
         <div class="about-content">
-          <h4>About What We Do & Who We Are</h4>
+          <h4>
+            About <em>What We Do</em>
+            & Who We Are
+          </h4>
           <img
             width="50px"
             height="2px"
@@ -159,7 +170,7 @@
       </div>
       <div class="clients">
         <div class="client-header">
-          <h4>Check What The Clients Say About Our App Dev</h4>
+          <h4>Check What <em>The Clients Say</em> About Our App Dev</h4>
           <img src="image/heading-line-dec.png" />
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
@@ -173,7 +184,14 @@
               <p>30 November 2021</p>
             </div>
             <div class="client-category">Financial Apps</div>
-            <div class="client-rating"><p style="color: #4b8ef1">4.8</p></div>
+            <div class="client-rating">
+              <i style="color: #4b8ef1" class="fa-solid fa-star"></i>
+              <i style="color: #4b8ef1" class="fa-solid fa-star"></i>
+              <i style="color: #4b8ef1" class="fa-solid fa-star"></i>
+              <i style="color: #4b8ef1" class="fa-solid fa-star"></i>
+              <i style="color: #4b8ef1" class="fa-solid fa-star"></i>
+            </div>
+            <div class="rating-number"><p style="color: #4b8ef1">4.8</p></div>
           </div>
           <div class="client-row">
             <div class="client-name">
@@ -181,7 +199,14 @@
               <p>29 November 2021</p>
             </div>
             <div class="client-category"><p>Digital Business</p></div>
-            <div class="client-rating">4.5</div>
+            <div class="client-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rating-number"><p>4.5</p></div>
           </div>
           <div class="client-row">
             <div class="client-name">
@@ -189,7 +214,14 @@
               <p>27 November 2021</p>
             </div>
             <div class="client-category">Business & Economics</div>
-            <div class="client-rating">4.7</div>
+            <div class="client-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rating-number"><p>4.7</p></div>
           </div>
           <div class="client-row">
             <div class="client-name">
@@ -197,7 +229,14 @@
               <p>24 November 2021</p>
             </div>
             <div class="client-category">New App Ecosystem</div>
-            <div class="client-rating">3.9</div>
+            <div class="client-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rating-number"><p>3.9</p></div>
           </div>
           <div class="client-row">
             <div class="client-name">
@@ -205,7 +244,14 @@
               <p>21 November 2021</p>
             </div>
             <div class="client-category">Web Development</div>
-            <div class="client-rating">4.3</div>
+            <div class="client-rating">
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+              <i class="fa-solid fa-star"></i>
+            </div>
+            <div class="rating-number"><p>4.3</p></div>
           </div>
         </div>
         <div class="client-description">
@@ -223,7 +269,7 @@
           <p>CEO of David Company</p>
         </div>
       </div>
-      <div class="prices">
+      <div class="prices" id="pricing">
         <div class="prices-header">
           <h4>We Have The Best Pre-Order Prices You Can Get</h4>
           <img height="3px" src="image/heading-line-dec.png" />
@@ -239,20 +285,117 @@
             <h4>Standard Plan App</h4>
             <img src="image/pricing-table-01.png" alt="" />
             <ul>
-              <li>Lorem Ipsum Dolores</li>
-              <li>20 TB of Storage</li>
-              <li>Life-time Support</li>
-              <li>Premium Add-Ons</li>
-              <li>Fastest Network</li>
-              <li>More Options</li>
+              <li style="color: blue">Lorem Ipsum Dolores</li>
+              <li style="color: blue">20 TB of Storage</li>
+              <li style="text-decoration: line-through">Life-time Support</li>
+              <li style="text-decoration: line-through">Premium Add-Ons</li>
+              <li style="text-decoration: line-through">Fastest Network</li>
+              <li style="text-decoration: line-through">More Options</li>
             </ul>
+            <button class="price-button">Purchase This Plan Now</button>
+          </div>
+          <div class="bottom-background-regular"></div>
+        </div>
+        <div class="price-box">
+          <div class="top-background-pro"></div>
+          <p>$25</p>
+          <div class="price-box-content">
+            <h4>Standard Plan App</h4>
+            <img src="image/pricing-table-01.png" alt="" />
+            <ul>
+              <li style="color: blue">Lorem Ipsum Dolores</li>
+              <li style="color: blue">20 TB of Storage</li>
+              <li style="color: blue">Life-time Support</li>
+              <li style="color: blue">Premium Add-Ons</li>
+              <li style="text-decoration: line-through">Fastest Network</li>
+              <li style="text-decoration: line-through">More Options</li>
+            </ul>
+            <button>Purchase This Plan Now</button>
+          </div>
+          <div class="bottom-background-pro"></div>
+        </div>
+        <div class="price-box">
+          <div class="top-background-regular"></div>
+          <p>$66</p>
+          <div class="price-box-content">
+            <h4>Standard Plan App</h4>
+            <img src="image/pricing-table-01.png" alt="" />
+            <ul>
+              <li style="color: blue">Lorem Ipsum Dolores</li>
+              <li style="color: blue">20 TB of Storage</li>
+              <li style="color: blue">Life-time Support</li>
+              <li style="color: blue">Premium Add-Ons</li>
+              <li style="color: blue">Fastest Network</li>
+              <li style="color: blue">More Options</li>
+            </ul>
+            <button>Purchase This Plan Now</button>
+          </div>
+          <div class="bottom-background-regular"></div>
+        </div>
+      </div>
+      <div class="footer" id="newsletter">
+        <div class="footer-main">
+          <h1>Join Our Mailing List To Receive The News & Latest Trends</h1>
+        </div>
+        <div class="footer-email">
+          <div class="footer-email-box">
+            <input
+              type="adress"
+              name="adress"
+              class="email"
+              placeholder="Email Adress..."
+            />
+          </div>
+          <div class="footer-button">
+            <button class="footer-button-1">Subscribe Now ></button>
           </div>
         </div>
-        <div class="price-box">
-          <p>$12</p>
-        </div>
-        <div class="price-box">
-          <p>$12</p>
+        <div class="list-conteiner">
+          <div class="footer-list-1">
+            <h3>Contact Us</h3>
+            <p>Rio de Janeiro - RJ, 22795-008, Brazil</p>
+            <p>010-020-0340</p>
+            <p>info@company.co</p>
+          </div>
+          <div class="footer-list-2">
+            <h3>About Us</h3>
+            <p>Home</p>
+            <p>Services</p>
+            <p>About</p>
+            <p>Testimonials</p>
+            <p>About</p>
+          </div>
+          <div class="footer-list-2-5">
+            <p>About</p>
+            <p>Testimonials</p>
+            <p>Pricing</p>
+          </div>
+          <div class="footer-list-3">
+            <h3>Useful Links</h3>
+            <p>Free Apps</p>
+            <p>App Engine</p>
+            <p>Programming</p>
+            <p>Development</p>
+            <p>App News</p>
+          </div>
+          <div class="footer-list-3-5">
+            <p>App Dev Team</p>
+            <p>Digital Web</p>
+            <p>Normal Apps</p>
+          </div>
+          <div class="footer-list-4">
+            <h3>About Our Company</h3>
+            <img src="image/white-logo.png" alt="" />
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore.
+            </p>
+          </div>
+          <div class="footer-list-5">
+            <p>Copyright © 2022 Chain App Dev Company. All Rights Reserved.</p>
+            <p>Design: TemplateMo</p>
+            <p>Distributed By: ThemeWagon</p>
+          </div>
         </div>
       </div>
     </div>

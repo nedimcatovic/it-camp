@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+    padding: 0%;
+}
+.root{
+    height: 100vh;
+    width: 100%;
+    margin: auto;
+    display: grid;
+    grid-template-columns:1fr 3fr 1fr;
+    grid-template-rows: 1fr 6fr 1fr;
+    grid-template-areas: 
+    "header header header"
+    "navigation content sidebar"
+    "footer footer footer"
+}
+.header{
+    grid-area: header;
+    background-color: aqua;
+}
+.navigation{
+    grid-area: navigation;
+    background-color: chocolate;
+}
+.content{
+    grid-area: content;
+    background-color: blueviolet;
+}
+.sidebar{
+    grid-area: sidebar;
+    background-color: green;
+}
+.footer{
+    grid-area: footer;
+    background-color: pink;
+}

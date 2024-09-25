@@ -18,7 +18,7 @@
 
 // console.log(subArr);
 
-//nadji da li je broj prost
+// nadji da li je broj prost
 
 // function isPrime(number) {
 //   if (number % 2 === 0) {
@@ -69,5 +69,5 @@ function amountTocoins(number, apoens) {
   return appReturn;
 }
 
-res = amountTocoins(78);
+res = amountTocoins(120);
 console.log(res);

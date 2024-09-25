@@ -125,3 +125,15 @@ console.log(max2);
 
 //nadji unikatan broj u nizu 1, 1, 2, 2, 3, 3, 4, 5, 5
 // nadji drugi najmanji broj
+
+let someArray = ["Mike", "Antal", "Marc", "Emir", "Louiza", "Jacky"];
+let notFound = true;
+
+while (notFound && someArray.lenght > 0) {
+  if (someArray[0] === "Louiza") {
+    console.log("Found her!");
+    notFound = false;
+  } else {
+    someArray.shift();
+  }
+}

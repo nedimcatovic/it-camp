@@ -65,4 +65,5 @@ while (true) {
   niz.push(broj);
 }
 
+
 console.log(niz);
